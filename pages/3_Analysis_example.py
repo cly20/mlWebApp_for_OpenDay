@@ -3,11 +3,11 @@ from streamlit.components import v1 as st_comp
 
 st.set_page_config(layout="wide", page_title="Example physics analysis")
 
-st.title("Let's look for some dark matter!!!")
+st.title("Let's look for some dark matter using ATLAS data!!!")
 
 st.markdown(
 """
-Putting together everything we have looked at thus far, let's take a look
+Let's take a look
 at an example exercise doing **cut-and-count** analysis to search for 
 **dark matter**.
 

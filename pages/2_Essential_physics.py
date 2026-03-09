@@ -3,22 +3,22 @@ from streamlit.components import v1 as st_comp
 
 st.set_page_config(layout="wide", page_title="A quick physics 101")
 
-st.title("A quick physics primer")
+st.title("A quick primer on dark matter")
 
-st_comp.iframe(
-   src= "https://opendata.atlas.cern/docs/documentation/introduction/SM_and_beyond",
-   height= 5000,
-   scrolling=True
-)
+#st_comp.iframe(
+#   src= "https://opendata.atlas.cern/docs/documentation/introduction/SM_and_beyond",
+#   height= 5000,
+#   scrolling=True
+#)
 
-st.markdown(
-"""
-# Feeling confused?
-Don't worry!! Even qualified particle physicists can find it a bit much. 
-For us, this makes it all the more intriguing, and motivates us to keep 
-studying why our intuition isn't always the straightforward answer...
-"""
-)
+#st.markdown(
+#"""
+## Feeling confused?
+#Don't worry!! Even qualified particle physicists can find it a bit much. 
+#For us, this makes it all the more intriguing, and motivates us to keep 
+#studying why our intuition isn't always the straightforward answer...
+#"""
+#)
 
 st.image("images/fundamental_forces_2x.png")
 
