@@ -3,20 +3,20 @@ from streamlit.components import v1 as st_comp
 
 st.set_page_config(layout="wide", page_title="Intro")
 
-st.title("Introduction")
+#st.title("Introduction")
 
-st.markdown(
-"""
+#st.markdown(
+#"""
 # Read on to get a bit more detail on the LHC and ATLAS.
-"""
-)
+#"""
+#)
 
-st_comp.iframe(
-src="https://opendata.atlas.cern/docs/documentation/introduction/introduction_ATLAS",
-    height=3500,
-    #width=8000,
-    scrolling=True
-)
+#st_comp.iframe(
+#src="https://opendata.atlas.cern/docs/documentation/introduction/introduction_ATLAS",
+#    height=3500,
+#    #width=8000,
+#    scrolling=True
+#)
 
 
 st.markdown(
@@ -28,8 +28,9 @@ like a microscope used to zoom-in on the most fundamental of scales.
 In so doing, physicists can begin to understand the Standard Model - 
 particle physicists' version of the periodic table - and unravel some of 
 its quirks and mysteries.
-While a more humorous representation of new physics is given below, further
-detail is provided in its own page.
+While a more humorous representation of **general** new physics is given below, 
+this tutorial shall focus on **dark matter**. More information can be found on the 
+next page.
 """
 )
 
